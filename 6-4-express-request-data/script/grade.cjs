@@ -196,7 +196,6 @@ function existsDir(p) {
 function hasAny(text, patterns) {
   return patterns.some((p) => p.test(text));
 }
-
 /* -----------------------------
    Project root detection
 -------------------------------- */
